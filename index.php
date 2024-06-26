@@ -10,6 +10,6 @@
 </head>
 
 <body class="home-content">
-    <?php include 'header.php'; ?>  
-
+  <?php include 'navbar.php'; ?>  
+  <h1>rm0819's Various Web Projects Homepage!</h1>
 </body> 
