@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="author" content="rm0819">
-  <meta name="description" content="rm0819's Various Web Projects">
-  <meta name="keywords" content="rm0819">
-  <title>rm0819's Homepage</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
 
-<body class="home-content">
-  <nav class="navbar">
-      <a href="./index.html" class="navbar">Homepage</a>
-  </nav>
-  <hr class="navbar">
-  <h1>rm0819's Various Web Projects Homepage!</h1>
-</body> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="rm0819">
+    <meta name="description" content="rm0819's Various Web Projects">
+    <meta name="keywords" content="rm0819">
+    <title>rm0819's Homepage</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+
+  <body class="home-content">
+    <div id="navbar"></div>
+    <script>$( "#navbar" ).load("./navbar.html #navbar");</script>
+
+    <h1>rm0819's Various Web Projects Homepage!</h1>
+
+  </body> 
+
+</html>
