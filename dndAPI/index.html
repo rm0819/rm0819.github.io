@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <title>Monster Search</title>
+  </head>
+
+  <body class="other-content">
+    <div id="navbar"></div>
+    <script>$( "#navbar" ).load("../navbar.html #navbar");</script>
+    <h1>Monster Search</h1>
+    <input class="input" type="text" id="monsterInput" placeholder="Enter a monster name" />
+    <button id="searchButton">Search</button>
+    <div id="monsterResult" class="monster-result"></div>
+    <script src="dnd.js"></script>
+  </body>
+
+</html>
