@@ -11,7 +11,7 @@
     font-family: monaco, monospace;
 }
 
-.member-content {
+.other-content {
     color: var(--text-primary);
     background-color: var(--background-primary  );
 }
@@ -19,16 +19,6 @@
 .home-content {
     color: var(--text-primary);
     background-color: var(--background-primary);
-}
-table {
-    border-collapse: collapse;
-    margin-bottom: 30px;
-    margin-top: 30px;
-}
-td, th {
-    border: 2px solid white;
-    padding: 10px;
-    text-align: center;
 }
 
 .errorMessage {
@@ -41,9 +31,23 @@ td, th {
     border-style: outset;
 }
 
-.navbar, a {
+hr.navbar {
+    border-color: var(--background-secondary);
+    background-color: var(--background-secondary);
+    border-style: solid;
+    color: var(--background-secondary);
+    height: 1px;
+}
+
+a.navbar {
     text-decoration: none;
     color: var(--text-primary)
+}
+
+a.navbar:hover {
+    text-decoration: underline;
+    text-size-adjust: 5%;
+    text-decoration-color: var(--text-secondary)
 }
 
 .link:hover {
@@ -67,52 +71,7 @@ button:hover {
     border-radius: 0.35rem;
 }
 
-hr.navbar {
-    border-color: var(--background-secondary);
-    background-color: var(--background-secondary);
-    border-style: solid;
-    color: var(--background-secondary);
-    height: 1px;
-}
-
 .input {
     padding: 0.25rem;
     width: 300px;
-}
-
-#colorTable {
-    width: 80%;
-}
-#dropDownCell {
-    width: 20%;
-}
-#colorCell {
-    width: 80%;
-}
-#dropDownMenu {
-    width: 90%;
-}
-
-#alphabetTableCell {
-    width: 30px;
-    height: 30px;
-}
-
-.colorList {
-    top:150px;
-    left:350px;
-    position:fixed;
-}
-
-.colorErrorMessage {
-    background-color: var(--error);
-    font-weight: bold;
-    width: 300px;
-    top:100px;
-    left:350px;
-    position:fixed;
-}
-.colorErrorMessage:hover {
-    padding: 0.25rem;
-    border-style: outset;
 }
