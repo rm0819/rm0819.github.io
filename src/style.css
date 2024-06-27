@@ -21,6 +21,14 @@
     background-color: var(--background-primary);
 }
 
+a {
+    color: var(--text-primary);
+}
+
+a:hover {
+    text-decoration-color: var(--text-secondary);
+}
+
 .errorMessage {
     background-color: var(--error);
     font-weight: bold;
