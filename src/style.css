@@ -2,11 +2,11 @@
 :root {
     --text-primary: white;
     --text-secondary: #C7D4D6;
-    --background-primary: #505639;
-    --background-secondary: #2c473a;
-    --error: #7a6a44;
-    --light-accent: #7d5f4e;
-    --dark-accent: #414d43;
+    --background-primary: #272727;
+    --background-secondary: #747474;
+    --error: #FF652F;
+    --light-accent: #FFE400;
+    --dark-accent: #14A76C;
 
     font-family: monaco, monospace;
 }
@@ -26,7 +26,7 @@ a {
 }
 
 a:hover {
-    text-decoration-color: var(--text-secondary);
+    text-decoration-color: var(--dark-accent);
 }
 
 .errorMessage {
@@ -40,10 +40,10 @@ a:hover {
 }
 
 hr.navbar {
-    border-color: var(--background-secondary);
-    background-color: var(--background-secondary);
+    border-color: var(--dark-accent);
+    background-color: var(--dark-accent);
     border-style: solid;
-    color: var(--background-secondary);
+    color: var(--dark-accent);
     height: 1px;
 }
 
@@ -55,7 +55,7 @@ a.navbar {
 a.navbar:hover {
     text-decoration: underline;
     text-size-adjust: 5%;
-    text-decoration-color: var(--text-secondary)
+    text-decoration-color: var(--dark-accent)
 }
 
 .link:hover {
@@ -70,7 +70,7 @@ button {
     border-style: none;
     border-radius: 0.25rem;
     color: var(--text-primary);
-    background-color: var(--background-secondary);
+    background-color: var(--dark-accent);
 }
 
 button:hover {
