@@ -28,10 +28,19 @@ img {
 
 a {
     color: var(--text-primary);
+    text-decoration-color: var(--light-accent);
 }
 
 a:hover {
     text-decoration-color: var(--dark-accent);
+}
+
+hr {
+    border-color: var(--dark-accent);
+    background-color: var(--dark-accent);
+    border-style: solid;
+    color: var(--dark-accent);
+    height: 1px;
 }
 
 .errorMessage {
@@ -43,7 +52,15 @@ a:hover {
     padding: 0.25rem;
     border-style: outset;
 }
+/* ------ About Me Navbar ------ */
+div#aboutnav {
+    width: 99%;
+    margin-left: auto;
+    margin-right: 0;
+}
 
+
+/* ------ Navbar ------ */
 hr.navbar {
     border-color: var(--dark-accent);
     background-color: var(--dark-accent);
